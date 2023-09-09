@@ -3,14 +3,14 @@ from setuptools import setup
 
 setup(
     name='async-Eel',
-    version='1.0-b4',
+    version='1.0-b5',
     author='namuyang',
     author_email='thhjuu<AT>yahoo.co.jp',
     packages=['async_eel'],
     package_data={
         'async_eel': ['eel.js'],
     },
-    install_requires=['aiohttp', 'future', 'whichcraft'],
+    install_requires=['aiohttp', 'future', 'whichcraft', 'expiringdict'],
     python_requires='>=3.6',
     description='For little HTML GUI applications, with easy Python/JS interop',
     long_description=open('README.md', encoding='utf-8').read(),
